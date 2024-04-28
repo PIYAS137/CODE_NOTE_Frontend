@@ -1,3 +1,4 @@
+import CodeViewPage from "../Pages/CodeViewPage";
 import HomePage from "../Pages/HomePage";
 import LoginPage from "../Pages/LoginPage";
 import RootPage from "../Pages/RootPage";
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
             {
                 path: '/',
                 element : <HomePage/>
+            },
+            {
+                path:'/:sid',
+                element : <CodeViewPage/>
             },
             {
                 path : '/login',
