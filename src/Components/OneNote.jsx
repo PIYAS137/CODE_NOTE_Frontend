@@ -15,7 +15,7 @@ const OneNote = () => {
                 <p>Code about Recursion</p>
                 <div className="card-actions justify-end">
                     <Link target='_blank' to={'/:300'}>
-                        <button className="btn dark:bg-warning dark:border-none">View CODE</button>
+                        <button className="btn dark:bg-warning dark:border-none">VIEW CODE</button>
                     </Link>
                 </div>
             </div>
